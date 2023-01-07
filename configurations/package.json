@@ -1,0 +1,19 @@
+{
+    "name": "configurations",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy:local": "cross-env BUCKET_NAME=$ FILE_NAME=$ ts-node ./index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1286.0",
+        "cross-env": "^7.0.3"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.18"
+    }
+}
