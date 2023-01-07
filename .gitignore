@@ -108,3 +108,6 @@ dist
 .env.test
 .env.dev
 .env.prod
+
+terraform/.terraform/*
+terraform/.terraform.lock.hcl
