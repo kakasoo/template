@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# enviornment file to save in s3 bucket
+.env.local
+.env.test
+.env.dev
+.env.prod
